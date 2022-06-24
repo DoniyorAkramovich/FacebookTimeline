@@ -11,7 +11,7 @@ import SwiftUI
 struct FacebookTimelineApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeScreen()
         }
     }
 }

@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E38A8E0A2864ED8F00BC93C8 /* PostItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38A8E092864ED8F00BC93C8 /* PostItems.swift */; };
 		E3C9B9B1286473590078301D /* FacebookTimelineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9B9B0286473590078301D /* FacebookTimelineApp.swift */; };
-		E3C9B9B3286473590078301D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9B9B2286473590078301D /* ContentView.swift */; };
 		E3C9B9B52864735A0078301D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C9B9B42864735A0078301D /* Assets.xcassets */; };
 		E3C9B9B82864735A0078301D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C9B9B72864735A0078301D /* Preview Assets.xcassets */; };
+		E3C9B9BF28649D380078301D /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9B9BE28649D380078301D /* HomeScreen.swift */; };
+		E3C9B9C12864B0B60078301D /* RoomItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9B9C02864B0B60078301D /* RoomItems.swift */; };
+		E3C9B9C32864B9100078301D /* StoryItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9B9C22864B9100078301D /* StoryItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E38A8E092864ED8F00BC93C8 /* PostItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItems.swift; sourceTree = "<group>"; };
 		E3C9B9AD286473590078301D /* FacebookTimeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookTimeline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C9B9B0286473590078301D /* FacebookTimelineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookTimelineApp.swift; sourceTree = "<group>"; };
-		E3C9B9B2286473590078301D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E3C9B9B42864735A0078301D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3C9B9B72864735A0078301D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E3C9B9BE28649D380078301D /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		E3C9B9C02864B0B60078301D /* RoomItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomItems.swift; sourceTree = "<group>"; };
+		E3C9B9C22864B9100078301D /* StoryItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				E3C9B9B0286473590078301D /* FacebookTimelineApp.swift */,
-				E3C9B9B2286473590078301D /* ContentView.swift */,
+				E3C9B9BE28649D380078301D /* HomeScreen.swift */,
+				E3C9B9C02864B0B60078301D /* RoomItems.swift */,
+				E3C9B9C22864B9100078301D /* StoryItems.swift */,
+				E38A8E092864ED8F00BC93C8 /* PostItems.swift */,
 				E3C9B9B42864735A0078301D /* Assets.xcassets */,
 				E3C9B9B62864735A0078301D /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3C9B9B3286473590078301D /* ContentView.swift in Sources */,
+				E38A8E0A2864ED8F00BC93C8 /* PostItems.swift in Sources */,
+				E3C9B9BF28649D380078301D /* HomeScreen.swift in Sources */,
 				E3C9B9B1286473590078301D /* FacebookTimelineApp.swift in Sources */,
+				E3C9B9C32864B9100078301D /* StoryItems.swift in Sources */,
+				E3C9B9C12864B0B60078301D /* RoomItems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
