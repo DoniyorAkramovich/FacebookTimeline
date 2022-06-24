@@ -46,6 +46,7 @@ struct StoryItems: View {
         }
         .frame(width: 150, height: 230)
         .cornerRadius(25)
+        .padding(.vertical, 5)
     }
 }
 

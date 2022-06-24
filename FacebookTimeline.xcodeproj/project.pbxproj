@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E34902CB28656453006783B2 /* Task_II.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34902CA28656453006783B2 /* Task_II.swift */; };
+		E34902CD2865732F006783B2 /* Task_III.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34902CC2865732F006783B2 /* Task_III.swift */; };
 		E38A8E0A2864ED8F00BC93C8 /* PostItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38A8E092864ED8F00BC93C8 /* PostItems.swift */; };
 		E3C9B9B1286473590078301D /* FacebookTimelineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9B9B0286473590078301D /* FacebookTimelineApp.swift */; };
 		E3C9B9B52864735A0078301D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C9B9B42864735A0078301D /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E34902CA28656453006783B2 /* Task_II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_II.swift; sourceTree = "<group>"; };
+		E34902CC2865732F006783B2 /* Task_III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_III.swift; sourceTree = "<group>"; };
 		E38A8E092864ED8F00BC93C8 /* PostItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItems.swift; sourceTree = "<group>"; };
 		E3C9B9AD286473590078301D /* FacebookTimeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookTimeline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C9B9B0286473590078301D /* FacebookTimelineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookTimelineApp.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				E3C9B9C02864B0B60078301D /* RoomItems.swift */,
 				E3C9B9C22864B9100078301D /* StoryItems.swift */,
 				E38A8E092864ED8F00BC93C8 /* PostItems.swift */,
+				E34902CA28656453006783B2 /* Task_II.swift */,
+				E34902CC2865732F006783B2 /* Task_III.swift */,
 				E3C9B9B42864735A0078301D /* Assets.xcassets */,
 				E3C9B9B62864735A0078301D /* Preview Content */,
 			);
@@ -146,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E34902CD2865732F006783B2 /* Task_III.swift in Sources */,
 				E38A8E0A2864ED8F00BC93C8 /* PostItems.swift in Sources */,
 				E3C9B9BF28649D380078301D /* HomeScreen.swift in Sources */,
+				E34902CB28656453006783B2 /* Task_II.swift in Sources */,
 				E3C9B9B1286473590078301D /* FacebookTimelineApp.swift in Sources */,
 				E3C9B9C32864B9100078301D /* StoryItems.swift in Sources */,
 				E3C9B9C12864B0B60078301D /* RoomItems.swift in Sources */,
